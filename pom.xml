@@ -36,8 +36,8 @@
   <properties>
     <java.version>11</java.version>
     <start-class>org.folio.Application</start-class>
-<!--    <sonar.exclusions>**/Application.java</sonar.exclusions>-->
-<!--    <sonar.coverage.exclusions>**/Application.java</sonar.coverage.exclusions>-->
+    <sonar.exclusions>**/Application.java</sonar.exclusions>
+    <sonar.coverage.exclusions>**/Application.java</sonar.coverage.exclusions>
   </properties>
 
   <repositories>
