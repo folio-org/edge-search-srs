@@ -176,9 +176,6 @@
               <inputSpec>${mod-search.yaml.file}</inputSpec>
               <output>${project.build.directory}/generated-sources</output>
               <generatorName>spring</generatorName>
-<!--              will be enriched in future after some dto's and etc. will be created-->
-<!--              <modelPackage>${project.groupId}.search.domain.dto</modelPackage>-->
-<!--              <apiPackage>${project.groupId}.search.rest.resource</apiPackage>-->
               <generateApis>true</generateApis>
               <generateApiTests>true</generateApiTests>
               <generateApiDocumentation>true</generateApiDocumentation>
