@@ -1,0 +1,7 @@
+{
+  "srvcId": "@artifactId@-@version@",
+  "nodeId": "localhost",
+  "descriptor": {
+    "exec": "java -Dport=%p -jar ../edge-search-srs/target/edge-search-srs.jar -Dhttp.port=%p"
+  }
+}

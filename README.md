@@ -1,14 +1,14 @@
 # edge-search-srs
 
-Copyright (C) 2018-2019 The Open Library Foundation
+Copyright (C) 2018-2021 The Open Library Foundation
 
 This software is distributed under the terms of the Apache License,
 Version 2.0. See the file "[LICENSE](LICENSE)" for more information.
 
 ## Introduction
 
-Microservice to allow 3rd party discovery services to perform FOLIO patron
-actions via the discovery service's UI.
+Microservice provides wide-search capabilities of marc records 
+in the mod-source-record-storage(SRS) for 3rd party discovery services
 
 ## Additional information
 

@@ -1,15 +1,17 @@
 buildMvn {
-  publishModDescriptor = 'yes'
-  publishAPI = 'no'
-  mvnDeploy = 'yes'
-  runLintRamlCop = 'no'
+  publishModDescriptor = true
+  mvnDeploy = true
   doKubeDeploy = true
   buildNode = 'jenkins-agent-java11'
 
+  doApiLint = true
+  apiTypes = 'OAS'
+  apiDirectories = 'src/main/resources/swagger.api'
+
   doDocker = {
     buildJavaDocker {
-      publishMaster = 'yes'
-      healthChk = 'no'
+      publishMaster = true
+      healthChk = false
     }
   }
 }
