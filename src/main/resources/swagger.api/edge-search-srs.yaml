@@ -13,7 +13,11 @@ paths:
       description: example endpoint to generate api doc
       responses:
         '200':
-          $ref: '#/components/schemas/searchResult'
+          description: 'example endpoint result to generate api doc'
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/searchResult'
 
 components:
   schemas:
