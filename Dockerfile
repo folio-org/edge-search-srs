@@ -1,6 +1,6 @@
 FROM folioci/alpine-jre-openjdk11:latest
 
-ENV VERTICLE_FILE edge-search-srs-1.0-SNAPSHOT.jar
+ENV VERTICLE_FILE edge-search-srs-1.0.0-SNAPSHOT.jar
 
 # Set the location of the verticles
 ENV VERTICLE_HOME /usr/verticles
